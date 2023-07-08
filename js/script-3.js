@@ -23,6 +23,59 @@
 // // Это пустой массив
 // console.log(friends);
 
+// const array = []
+// console.log(array.length)
+
+// const clients = ["Mango", "Poly", "Ajax"]
+
+// const clientNameToFind  = "Poly"
+
+// let message1 = ""
+
+
+// for (const client of clients ) {
+//     // console.log(client)
+
+//     if (client === clientNameToFind) {
+//         message1 = `Клиент c именем ${clientNameToFind}  есть в базе данных!`;
+//         break;
+//     }
+
+//     message1 = `Клиента с именем ${clientNameToFind} нету в базе данных!`;
+// }
+
+// console.log(message1)
+
+
+const clients = ["Mango", "Poly", "Ajax"]
+
+const clientNameToFind = "Poly"
+
+let message1 = ""
+
+for (let i = 0; i < clients.length; i += 1) {
+    // console.log(clients[i])
+
+    if (clients[i] === clientNameToFind) {
+        message1 = `Клиент ${clientNameToFind} есть в базе данных`
+        break
+    }
+
+    message1 = `Такого клиента нету`;
+}
+
+console.log(message1)
+
+
+
+// console.log(clients)
+
+// for (const client of clients) {
+//     console.log(client)
+// }
+
+
+
 /** 
  * TODO Как добавить элементы в массив Из одного элемента
 */
@@ -122,7 +175,7 @@
 // console.log(a);
 // console.log(b);
 // тут значение поменялось только у переменной a
-// А у переменной b значение не п=поменялось
+// А у переменной b значение не поменялось
 
 /*
 * Передача по ссылке (сложный тип) массив
