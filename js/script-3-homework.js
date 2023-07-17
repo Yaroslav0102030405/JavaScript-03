@@ -32,16 +32,14 @@
 const findBestEmployee = function(employees) {
     let maxValue = 0
 
-    
-    const keys = Object.entries(employees)
-    for (const [name, value] of employees) {
-        if (value > maxValue) {
-            maxValue = value
-    }
-    
-}
+    let result = users.map(({ name, age }) => `\n${name} ${age}`).join('')
+    // const keys = Object.keys(employees)
 
-  }
+    // for (const key of employees) {
+    //        console.log(key)
+    // } 
+    return result
+}
   
   console.log(
     findBestEmployee({
