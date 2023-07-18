@@ -29,40 +29,23 @@
 //   console.log(countProps({ mail: 'poly@mail.com', isOnline: true, score: 500 })); // 3
 
 // Задача 3
-const findBestEmployee = function(employees) {
-    let maxValue = 0
+// const findBestEmployee = function(employees) {
+//   let maxValue = 0;
 
-    let result = users.map(({ name, age }) => `\n${name} ${age}`).join('')
-    // const keys = Object.keys(employees)
+//   const entries = Object.entries(employees);
 
-    // for (const key of employees) {
-    //        console.log(key)
-    // } 
-    return result
-}
+//     for (let i = 0; i < entries.length; i += 1) {
+//      console.log(entries[i]); 
+//      if (entries[i] > maxValue) {
+//       entries[i] = maxValue
+//      }  
+//     } 
+//     return entries
+    
+// }
   
-  console.log(
-    findBestEmployee({
-      ann: 29,
-      david: 35,
-      helen: 1,
-      lorence: 99,
-    }),
-  ); // lorence
+//   console.log(findBestEmployee({ann: 29,david: 35,helen: 1,lorence: 99,}),); // lorence
   
-  console.log(
-    findBestEmployee({
-      poly: 12,
-      mango: 17,
-      ajax: 4,
-    }),
-  ); // mango
+//   console.log(findBestEmployee({poly: 12,mango: 17,ajax: 4,}),); // mango
   
-  console.log(
-    findBestEmployee({
-      lux: 147,
-      david: 21,
-      kiwi: 19,
-      chelsy: 38,
-    }),
-  ); // lux
+//   console.log(findBestEmployee({lux: 147,david: 21,kiwi: 19,chelsy: 38,}),); // lux
