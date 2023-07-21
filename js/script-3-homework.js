@@ -232,7 +232,49 @@ letter === letter.toLowerCase()
 
 console.log(invertedString)
 
-const title = 'Top 10 React'
+const title = 'Top 10 benefits of React framework'
+// привели к нижнему регистру слова разбили на массив слов и потом пришыли пробел
+const normalizedTitle = title.toLowerCase().split(' ').join('-')
+
+console.log(normalizedTitle)
+
+const array1 = [5, 10, 15, 20]
+const array2 = [10, 20, 30]
+let total = 0
+const numbers = array1.concat(array2)
+
+for (const number of numbers) {
+  total += number
+}
+
+console.log(total)
+
+const cards = [
+  'Карточка-1',
+  'Карточка-2',
+  'Карточка-3',
+  'Карточка-4',
+  'Карточка-5',
+]
+
+const cardsToInsert = 'Карточка-6'
+const cardsZero = 'Карточка-0'
+const cards7 = 'Карточка-7'
+
+// вставить карточку в конец
+cards.push(cardsToInsert)
+// удалить pop() - с конца последний элемент
+
+// вставить карточку в начало
+cards.unshift(cardsZero)
+// удалить shift - первый элемент
+
+// поставить карточку по индексу
+// указываем индекс под который хотим поставить новую карточку
+// дальше ставим сколько элементов хотим удалить 0 - это ничего не удалять
+//  и имя переменной какую карточку вставить
+cards.splice(3, 0, cards7)
 
 
-console.log(title.toLowerCase())
+
+console.log(cards)
