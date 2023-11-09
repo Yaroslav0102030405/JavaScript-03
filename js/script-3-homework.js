@@ -278,3 +278,109 @@ cards.splice(3, 0, cards7)
 
 
 console.log(cards)
+
+
+const frinds = ['Abx', 'Tbx', 'Cbx', 'All']
+const index = 'All'
+
+console.log(frinds.includes(index) ? `Пользователь ${index} найден` : `Пользователь ${index} не найден` )
+
+// frinds
+
+for (let i = 1; i < frinds.length; i += 1) {
+  console.log(`${i} - ${frinds[i]}`);
+}
+// console.log(frinds)
+
+// for (const frind of frinds) {
+//   console.log(frind)
+// }
+
+// const cart = [10, 15, 20, 50]
+// let totals = 0
+
+// for (let i = 0; i < cart.length; i += 1) {
+//   // console.log(cart[i])
+//   cart[i] = Math.round(cart[i] * 1.1)
+//   // totals += cart[i]
+// }
+
+// console.log(cart)
+
+// console.log('totals:', totals)
+
+// console.log(frinds);
+
+// let a = 10
+// let b = a
+
+// a = 15
+
+// console.log(a)
+// console.log(b)
+
+// console.log(a === b)
+
+// const ab = [1, 2, 3]
+
+// const bc = ab
+
+// // ab.push(4)
+
+// bc.push(4)
+
+// console.log(ab)
+// console.log(bc)
+
+// console.log(ab === bc)
+
+
+// const numbers1 = [1, 2, 3, 4, 5, 6]
+const numbers1 = 'Javadsdsds cvcvc dfdfdf';
+
+let totalss = 0
+
+// const letterss = numbers1.join('-')
+const letterss = numbers1.toUpperCase().split(' ').join('-');
+
+// const words = letterss.split(' ')
+
+console.log(letterss)
+
+const array11 = [10]
+const array12 = [15]
+
+const allArray = array11.concat(array12)
+
+for (const allArra of allArray) {
+  totalss += allArra
+}
+
+console.log(totalss)
+
+
+
+
+// for (let i = 0; i < numbers1.length; i += 1) {
+//   // console.log(numbers1[i])
+  
+//   if (numbers1[i] % 2 !== 0) {
+//     totalss += numbers1[i]
+//   }
+// }
+
+// console.log(totalss)
+
+// for (const numbers of numbers1) {
+//   // console.log(numbers)
+
+//   if (numbers % 2 === 0) {
+//       totalss += numbers;
+//   }
+
+
+// }
+
+// console.log(totalss)
+
+
